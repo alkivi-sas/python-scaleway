@@ -20,9 +20,9 @@ except ImportError:  # pragma no cover
         def emit(self, record):
             pass
 
-# Prevent message "No handlers could be found for logger "dyntftpd"" to be
+# Prevent message "No handlers could be found for logger "scaleway"" to be
 # displayed.
 logging.getLogger(__name__).addHandler(NullHandler())
 
 
-__version__ = '1.5.1'
+__version__ = '1.6.0'
